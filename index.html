@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <title>Wireframe to Life</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />   
+  </head>
+  <body>
+  </br>
+    <div class="container">
+   <form class="d-flex" id="search-city-form">
+   <input
+    class="form-control me-5"
+    type="search"
+    id ="search-city"
+    placeholder="Search for another location"
+    autofocus="on"
+    />
+    <input type="submit" value="Go" class="search_button"/>
+                 
+     <div class="col-3">
+    <button
+     class="btn btn-success w-100"
+      id="current-location-button"
+       >
+      Current
+    </button>
+    </div>
+    </form>
+    </br>
+    <div class="currentTime">
+      Current time: <span id="today"></span>
+    </div>
+  </br>
+      <h1> <em><div id ="current-city">
+          Amsterdam </div></em></h1>
+      <h2>15ºC</h2>
+      <h3>⛅️</h3>
+    </br>
+      <div class="row">
+        <div class="col">
+          Tomorrow
+        </br>
+      <div class="emoj">
+       🌦
+      </div>
+       <div class="temp">
+        10ºC
+        </div>
+      </div>
+        <div class="col">
+          Wednesday
+         </br>
+       <div class="emoj">
+       ☀️
+      </div> 
+        <div class="temp">
+        19ºC
+        </div>
+      </div>
+        <div class="col">
+          Thursday
+         </br>
+         <div class="emoj">
+       ☀️
+      </div> 
+        <div class="temp">
+        23ºC
+        </div>
+      </div>
+        <div class="col">
+          Friday
+         </br>
+      <div class="emoj">
+      🌧
+      </div>  
+        <div class="temp">
+        7ºC
+        </div>
+      </div>
+        <div class="col">
+          Saturday
+       </br>
+       <div class="emoj">
+       ☀️
+      </div> 
+      <div class="temp">
+        17ºC
+      </div>
+    </div>
+</div>
+<script src="src/script.js"></script>
+</div>
+</br>
+<h4><a href="https://github.com/disneykka/weather-app">Open-source code</a>, by Yuliia Tepliuk</h4>
+  </body>
+</html>
